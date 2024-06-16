@@ -121,6 +121,9 @@ class Window:
             else:
                 self.write_file(file)
 
+        else:
+            pass
+
     # 4. Save new file -> this function is for saving the new file
     def save_new_file(self, result):
         self.isFileChange = False
@@ -153,6 +156,8 @@ class Window:
             self.redo()
         elif event.char == "\x1a" and event.keysym == "z":
             self.undo()
+        elif event.char == "\x13" and event.keysym == "s":
+            self.isFileChange=False
         elif event.char == "\x13":
             self.retrieve_input()
         elif event.char == "\x0f":
