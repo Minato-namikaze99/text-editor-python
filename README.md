@@ -27,4 +27,4 @@ This is a simple text editing application in Python, which supports the basic te
  - This is what it looks like after you edit and save a file.
 
 
- ![enter image description here](https://github.com/Minato-namikaze99/text-editor-python/blob/main/screenshots/main_screen_updated.png)
+ ![enter image description here](https://github.com/Minato-namikaze99/text-editor-python/blob/main/screenshots/main_screen_update.png)
